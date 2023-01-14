@@ -71,6 +71,11 @@
   margin: 0 auto;
 }
 
+.text-equi {
+  padding: 4%;
+  font-size: 2rem;
+}
+
 .terminal {
   height: 25%;
   padding: .625rem;
