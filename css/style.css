@@ -1,7 +1,3 @@
-/*google fonts*/
-
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 /*CSS Reset*/
 *,
 *:after,
@@ -22,9 +18,8 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../Img/pexels-momoka-shinriki-12242157-comp.jpg");
+    url("https://files.catbox.moe/pnv640.jpg") no-repeat center fixed;
   padding: 0 10%;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -48,11 +43,10 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: .625rem 1.875rem;
+  margin: 0.625rem 1.875rem;
 }
 
 nav ul li a {
-  text-decoration: none;
   font-size: 1.625rem;
   font-family: courier-std, monospace;
   font-weight: 400;
@@ -67,7 +61,6 @@ nav ul li a {
 
 .text-box h1 {
   font-size: 2.875rem;
-  margin-bottom: 1.25rem;
   font-family: courier-std, monospace;
   font-weight: 700;
   color: #b2b2b2;
@@ -77,19 +70,18 @@ nav ul li a {
 .text-box p {
   font-size: 1.5rem;
   display: inline-block;
-  text-decoration: none;
   color: #b2b2b2;
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
-  margin-top: 1.25rem; 
+  margin-top: 2.5rem;
 }
 /*Texto do objetivo*/
 .cont-obje {
   background: #3e3e3e;
   padding: 2%;
   min-height: 5.5rem;
-  max-height: 47%;
+  max-height: 50%;
 }
 
 .ticom {
@@ -110,6 +102,7 @@ nav ul li a {
   font-style: normal;
   color: #d1d1d1;
   font-size: 1.375rem;
+  padding-top: 1%;
 }
 
 .text-obj {
@@ -121,21 +114,22 @@ nav ul li a {
   font-size: 1.375rem;
   line-height: 2.5rem;
   padding-top: 1.25rem;
-  margin: 0 25%;
+  margin: 0 24%;
+  max-width: 80rem;
 }
 /*Texto da equipe*/
 .cont-equip {
   background: #020925;
   min-height: 3.625rem;
-  max-height: 47%;
+  max-height: 50%;
   padding: 2%;
 }
 /*Container*/
 .equip {
-  background: #fff;
+  background: #776ef7;
   max-width: 80rem;
   margin: 0 auto;
-  border-radius: .625rem;
+  border-radius: 0.625rem;
 }
 
 .text-equi {
@@ -143,26 +137,23 @@ nav ul li a {
   text-align: center;
   font-family: courier-std, monospace;
   font-weight: 700;
+  padding-top: 1.25rem;
   font-style: normal;
-  background: #fff;
+  color: #0b0b0b;
+  background: #776ef7;
   font-size: 2.625rem;
-  border-radius: .625rem;
+  border-radius: 0.625rem;
 }
 .terminal {
   background-color: #151515;
   box-sizing: border-box;
   height: 25%;
-  padding: 1.25rem;
-  margin: 0 auto;
-  border-bottom-left-radius: .3125rem;
-  border-bottom-right-radius: .3125rem;
-  border-radius: .625rem;
-  margin: .625rem 5% 0 5%;
-
+  padding: 2%;
+  margin: 1%;
+  border-radius: 0.625rem;
   min-width: 47%;
   width: auto;
   display: inline-block;
-  margin: 1%;
   height: auto;
 }
 
@@ -178,7 +169,7 @@ nav ul li a {
 .img-terminal {
   float: left;
   width: auto;
-  border-radius: .625rem;
+  border-radius: 0.625rem;
   height: auto;
   height: 16.375rem;
 }
@@ -217,5 +208,5 @@ footer {
   padding-left: 2.5rem;
   margin-top: 3px;
   color: #a1a0a4;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
