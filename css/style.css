@@ -138,6 +138,16 @@ nav ul li a {
   border-radius: .625rem;
 }
 
+.text-equi {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: courier-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  background: #fff;
+  font-size: 2.625rem;
+  border-radius: .625rem;
+}
 .terminal {
   background-color: #151515;
   box-sizing: border-box;
@@ -149,7 +159,7 @@ nav ul li a {
   border-radius: .625rem;
   margin: .625rem 5% 0 5%;
 
-  min-width: 46%;
+  min-width: 47%;
   width: auto;
   display: inline-block;
   margin: 1%;
