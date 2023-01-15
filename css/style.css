@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://files.catbox.moe/pnv640.jpg") no-repeat center fixed;
+    url("../Img/pexels-momoka-shinriki-12242157-comp.webp") no-repeat center fixed;
   padding: 0 10%;
   background-size: cover;
 }
