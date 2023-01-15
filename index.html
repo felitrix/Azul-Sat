@@ -26,7 +26,11 @@
     <!-- Stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/rwd.css">
-    <link rel="stylesheet" href="https://use.typekit.net/tzo4cqn.css">
+    <link rel="preload" href="https://use.typekit.net/tzo4cqn.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://use.typekit.net/tzo4cqn.css">
+    </noscript>
 </head>
 
 
@@ -97,7 +101,8 @@
                 </div>
                 <div class="terminal">
                     <div>
-                        <img class="img-terminal" src="Img/pic_sophia.webp" width="262" height="262" alt="Foto de Sophia">
+                        <img class="img-terminal" src="Img/pic_sophia.webp" width="262" height="262"
+                            alt="Foto de Sophia">
                     </div>
                     <div>
                         <p class="divticom">Sophia Moreira</p>
