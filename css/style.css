@@ -55,6 +55,11 @@ nav ul li a {
   font-style: normal;
   color: #b2b2b2;
 }
+
+nav ul li a:hover {
+  color: #dfdfdf;
+}
+
 /*Texto do header*/
 .text-box {
   padding-top: 23rem;
@@ -121,17 +126,18 @@ nav ul li a {
 }
 /*Texto da equipe*/
 .cont-equip {
-  background: #020925;
+  background: #0f052f;
   min-height: 3.625rem;
   max-height: 50%;
   padding: 2%;
 }
 /*Container*/
 .equip {
-  background: #776ef7;
+  background: #aa86d5;
   max-width: 80rem;
   margin: 0 auto;
   border-radius: 0.625rem;
+  text-align: center;
 }
 
 .text-equi {
@@ -142,13 +148,12 @@ nav ul li a {
   padding-top: 1.25rem;
   font-style: normal;
   color: #0b0b0b;
-  background: #776ef7;
+  background: #aa86d5;
   font-size: 2.625rem;
   border-radius: 0.625rem;
 }
 .terminal {
   background-color: #151515;
-  box-sizing: border-box;
   height: 25%;
   padding: 2%;
   margin: 1%;
@@ -174,6 +179,48 @@ nav ul li a {
   border-radius: 0.625rem;
   height: auto;
   height: 16.375rem;
+}
+
+/*Galeria de Imagens*/
+.cont-gale {
+  display: none;
+  background: #3e3e3e;
+  min-height: 3.625rem;
+  max-height: 50%;
+  padding: 2%;
+}
+.gale {
+  background: #aa86d5;
+  max-width: 80rem;
+  margin: 0 auto;
+  border-radius: 0.625rem;
+  text-align: center;
+}
+
+.img-gale-item {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  min-width: 47%;
+  height: 25%;
+  margin: 1%;
+}
+
+.text-gale {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: courier-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #d1d1d1;
+  font-size: 2.625rem;
+  background: #3e3e3e;
+}
+
+.img-gale {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
 }
 
 /* cursor terminal*/
