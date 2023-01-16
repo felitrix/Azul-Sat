@@ -5,25 +5,40 @@
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>WaveRiders</title>
-
+    <title>WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat</title>
     <!-- SEO -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-
-    <meta name="keywords"
-        content="CubeSat, observação marítima, oceanos, monitoramento, pesca ilegal, proteção, preservação, gestão costeira e marítima.">
-    <meta name="author" content="Felipe Koji">
     <meta name="description"
         content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos.">
+    <meta name="keywords"
+        content="CubeSat, observação marítima, oceanos, monitoramento, pesca ilegal, proteção, preservação, gestão costeira e marítima">
+    <meta name="author" content="Felipe Koji">
 
-    <!-- Favicon-->
-    <link rel="icon" href="#" type="image/x-icon">
+    <meta property="og:title" content="WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat" />
+    <meta property="og:description"
+        content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos." />
+    <meta property="og:image" content="https://felitrix.github.io/WaveRiders/img/wave-riders-logo.png" />
+    <meta property="og:url" content="https://felitrix.github.io/WaveRiders/" />
+    <meta property="og:site_name" content="WaveRiders" />
+
+    <meta name="robots" content="index, follow">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="pt-br">
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="São Paulo">
+    <meta name="DC.title" content="WaveRiders - Explorando os Oceanos com a Tecnologia de CubeSat">
+    <meta name="DC.creator" content="Felipe Koji">
+    <meta name="DC.subject"
+        content="CubeSat, observação marítima, oceanos, monitoramento, pesca ilegal, proteção, preservação, gestão costeira e marítima.">
+    <meta name="DC.description"
+        content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos.">
+
     <!-- Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/variables.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/rwd.css">
     <link rel="preload" href="https://use.typekit.net/tzo4cqn.css" as="style"
@@ -42,11 +57,12 @@
             <nav class="cabecalho-menu">
                 <a class="logo" href="/WaveRiders/">WaveRiders</a>
                 <ul>
-                    <li><a href="#objetivo">#objetivo</a></li>
-                    <li><a href="#equipe">#equipe</a></li>
-                    <li><a href="#galeria">#galeria</a></li>
+                    <li><a class="scroll-link" href="#objetivo">#objetivo</a></li>
+                    <li><a class="scroll-link" href="#equipe">#equipe</a></li>
+                    <li><a class="scroll-link" href="#galeria">#galeria</a></li>
                 </ul>
             </nav>
+
         </div>
 
         <div class="text-box">
@@ -147,6 +163,10 @@
 
         </a>
     </footer>
+    <!-- Adicionando jQuery via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
 
 </body>
 
