@@ -41,7 +41,6 @@
 
   /*Texto do objetivo*/
   .cont-obje {
-    background: #3e3e3e;
     padding: 2%;
     min-height: 3.625rem;
     max-height: 47%;
@@ -84,8 +83,6 @@
   .terminal {
     height: 25%;
     padding: 0.625rem;
-    border-bottom-left-radius: 0.3125rem;
-    border-bottom-right-radius: 0.3125rem;
     margin: 2%;
     min-width: 2%;
     width: 96%;
@@ -101,9 +98,6 @@
     float: left;
     height: auto;
     width: 40%;
-    margin-bottom: 0.3125rem;
-    background-position: center;
-    background-size: cover;
   }
 
   .footer-copyright {

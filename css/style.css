@@ -1,3 +1,11 @@
+:root {
+  --cor-principal: #0f052f; 
+  --cor-secundaria: #333333;
+  --cor-terciaria: #8b5d9e;
+  --cor-adicional: #4e5c8a; 
+  --cor-texto: #D1D1D1; 
+}
+
 /*CSS Reset*/
 *,
 *:after,
@@ -20,7 +28,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../Img/pexels-momoka-shinriki-12242157-comp.webp") no-repeat center
       fixed;
-  background-color: #020925;
+  background-color: var(--cor-principal);
   padding: 0 10%;
   background-size: cover;
 }
@@ -70,14 +78,14 @@ nav ul li a:hover {
   font-size: 2.875rem;
   font-family: courier-std, monospace;
   font-weight: 700;
-  color: #b2b2b2;
+  color: var(--cor-texto);
   font-style: normal;
 }
 
 .text-box p {
   font-size: 1.5rem;
   display: inline-block;
-  color: #b2b2b2;
+  color: var(--cor-texto);
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
@@ -85,7 +93,7 @@ nav ul li a:hover {
 }
 /*Texto do objetivo*/
 .cont-obje {
-  background: #3e3e3e;
+  background: var(--cor-secundaria);
   padding: 2%;
   min-height: 5.5rem;
   max-height: 50%;
@@ -97,9 +105,9 @@ nav ul li a:hover {
   font-family: courier-std, monospace;
   font-weight: 700;
   font-style: normal;
-  color: #d1d1d1;
+  color: var(--cor-texto);
   font-size: 2.625rem;
-  background: #3e3e3e;
+  background: var(--cor-secundaria);
 }
 
 .divticom {
@@ -107,33 +115,33 @@ nav ul li a:hover {
   font-family: courier-std, monospace;
   font-weight: 700;
   font-style: normal;
-  color: #d1d1d1;
+  color: var(--cor-texto);
   font-size: 1.375rem;
   padding-top: 1%;
 }
 
 .text-obj {
+  margin: 0 auto;
   text-align: center;
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
-  color: #d1d1d1;
+  color: var(--cor-texto);
   font-size: 1.375rem;
   line-height: 2.5rem;
   padding-top: 1.25rem;
-  margin: 0 24%;
-  max-width: 80rem;
+  max-width: 60rem;
 }
 /*Texto da equipe*/
 .cont-equip {
-  background: #0f052f;
+  background: var(--cor-principal);
   min-height: 3.625rem;
   max-height: 50%;
   padding: 2%;
 }
 /*Container*/
 .equip {
-  background: #aa86d5;
+  background: var(--cor-secundaria);
   max-width: 80rem;
   margin: 0 auto;
   border-radius: 0.625rem;
@@ -147,13 +155,13 @@ nav ul li a:hover {
   font-weight: 700;
   padding-top: 1.25rem;
   font-style: normal;
-  color: #0b0b0b;
-  background: #aa86d5;
+  color: var(--cor-texto);
+  background: var(--cor-secundaria);
   font-size: 2.625rem;
   border-radius: 0.625rem;
 }
 .terminal {
-  background-color: #151515;
+  background-color: var(--cor-adicional);
   height: 25%;
   padding: 2%;
   margin: 1%;
@@ -165,7 +173,7 @@ nav ul li a:hover {
 }
 
 .text-terminal {
-  color: #d1d1d1;
+  color: var(--cor-texto);
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
@@ -177,20 +185,18 @@ nav ul li a:hover {
   float: left;
   width: auto;
   border-radius: 0.625rem;
-  height: auto;
   height: 16.375rem;
 }
 
 /*Galeria de Imagens*/
 .cont-gale {
   display: none;
-  background: #3e3e3e;
+  background: var(--cor-secundaria);
   min-height: 3.625rem;
   max-height: 50%;
   padding: 2%;
 }
 .gale {
-  background: #aa86d5;
   max-width: 80rem;
   margin: 0 auto;
   border-radius: 0.625rem;
@@ -212,9 +218,8 @@ nav ul li a:hover {
   font-family: courier-std, monospace;
   font-weight: 700;
   font-style: normal;
-  color: #d1d1d1;
+  color: var(--cor-texto);
   font-size: 2.625rem;
-  background: #3e3e3e;
 }
 
 .img-gale {
@@ -243,19 +248,35 @@ nav ul li a:hover {
   }
 }
 
-/* footer */
 footer {
-  background-color: #000;
+  display: flex; /* habilita o uso de flexbox */
+  justify-content: space-between; /* alinha os elementos no rodapé */
+  align-items: center; /* centraliza os elementos no eixo vertical */
+  background-color: var(--cor-terciaria);
   flex-wrap: wrap;
-  color: #000;
+  color: var(--cor-secundaria);
   text-align: left;
-  padding: 1.25rem;
+  padding: 1.25rem 10%;
 }
 
 .footer-copyright {
   line-height: 1.375rem;
   padding-left: 2.5rem;
   margin-top: 3px;
-  color: #a1a0a4;
+  color: var(--cor-texto);
   font-size: 0.875rem;
+}
+
+footer img{
+  width: auto;
+  height: 40px;
+}
+
+footer a {
+  text-align: right; /* alinha o ícone do Instagram à direita */
+}
+
+.fa-instagram {
+  color: #fff;
+  font-size: 1.5rem;
 }
