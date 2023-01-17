@@ -1,4 +1,4 @@
-@import url('variables.css');
+@import url("variables.css");
 
 /*CSS Reset*/
 *,
@@ -177,9 +177,10 @@ nav ul li a:hover {
 
 .img-terminal {
   float: left;
-  width: auto;
+  object-fit: cover;
   border-radius: 0.625rem;
   height: 16.375rem;
+  width: 16.375rem;
 }
 
 /*Galeria de Imagens*/
@@ -246,7 +247,7 @@ footer {
   display: flex; /* habilita o uso de flexbox */
   justify-content: space-between; /* alinha os elementos no rodapé */
   align-items: center; /* centraliza os elementos no eixo vertical */
-  background-color: var(--cor-terciaria);
+  background-color: var(--cor-secundaria);
   flex-wrap: wrap;
   color: var(--cor-secundaria);
   text-align: left;
@@ -261,7 +262,7 @@ footer {
   font-size: 0.875rem;
 }
 
-footer img{
+footer img {
   width: auto;
   height: 40px;
 }
