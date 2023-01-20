@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat</title>
+
     <!-- SEO -->
     <meta name="description"
         content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos.">
@@ -22,7 +23,6 @@
     <meta property="og:image" content="https://felitrix.github.io/WaveRiders/img/wave-riders-logo.png" />
     <meta property="og:url" content="https://felitrix.github.io/WaveRiders/" />
     <meta property="og:site_name" content="WaveRiders" />
-
     <meta name="robots" content="index, follow">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -41,116 +41,141 @@
     <link rel="stylesheet" type="text/css" href="css/variables.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/rwd.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- Script-->
     <script src="https://kit.fontawesome.com/de10f4991c.js" crossorigin="anonymous"></script>
 
-</head>
 
+
+    <!-- Adicionando jQuery via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/scroll_link.js"></script>
+
+</head>
 
 <body>
     <!-- Header -->
     <header class="header">
         <div>
-            <nav class="cabecalho-menu">
+            <nav class="cabecalho">
                 <a class="logo" href="/WaveRiders/">WaveRiders</a>
                 <ul>
-                    <li><a class="scroll-link" href="#objetivo">#objetivo</a></li>
-                    <li><a class="scroll-link" href="#equipe">#equipe</a></li>
-                    <li><a class="scroll-link" href="#galeria">#galeria</a></li>
+                    <li><a class="scroll-link nav-menu-link" href="#objetivo">#objetivo</a></li>
+                    <li><a class="scroll-link nav-menu-link" href="#equipe">#equipe</a></li>
+                    <li><a style="display: none;" class="scroll-link nav-menu-link" href="#galeria">#galeria</a></li>
                 </ul>
             </nav>
 
         </div>
 
-        <div class="text-box">
-            <h1 data-aos="fade-right">Explorando os Oceanos com a Tecnologia de CubeSat</h1>
-            <p data-aos="fade-up">Junte-se a nós na proteção e preservação dos nossos oceanos com o projeto
+        <div class="texto-header">
+            <h1>Explorando os Oceanos com a Tecnologia de CubeSat</h1>
+            <p>Junte-se a nós na proteção e preservação dos nossos oceanos com o projeto
                 WaveRiders.<span class="cursor">█</span></p>
         </div>
+
     </header>
     <main>
-        <section id="objetivo" class="cont-obje">
+        <!-- Objetivo -->
+        <section id="objetivo" class="section-objetivo">
 
-            <h2 data-aos="fade-left" class="ticom">Objetivo</h2>
-            <p data-aos="fade-left" class="divticom">------------------------------</p>
-            <p data-aos="fade-left" class="text-obj">A equipe WaveRiders tem como objetivo desenvolver um CubeSat para
-                monitorar e estudar as
-                condições dos
-                oceanos, incluindo o monitoramento de pesca ilegal, fornecendo informações valiosas para a gestão
-                costeira e marítima.</p><br>
-            <p data-aos="fade-left" class="text-obj">Nosso objetivo é contribuir para a proteção e preservação dos
-                nossos oceanos. Através do
-                uso de CubeSat,
-                buscamos aumentar a compreensão e a capacidade de monitoramento dos oceanos, incluindo a pesca ilegal,
-                para tomar medidas eficazes para garantir sua saúde e bem-estar a longo prazo.</p>
+            <h2 class="texto-header-objetivo">Objetivo</h2>
+            <p class="separador-texto-header-objetivo">-----------------------------------------</p>
+            <p class="objetivo-texto-descricao">A equipe WaveRiders visa desenvolver um CubeSat
+                para monitorar e
+                estudar as condições da costa de Ubatuba, incluindo o monitoramento de atividades ilegais, fornecendo
+                informações valiosas para a gestão costeira e marítima.</p><br>
+            <p class="objetivo-texto-descricao">Nosso objetivo é contribuir para a proteção e
+                preservação da costa
+                de Ubatuba. Através do uso de CubeSat, visamos aumentar a compreensão e a capacidade de monitoramento da
+                costa, incluindo atividades ilegais, para tomar medidas eficazes para garantir sua saúde e bem-estar a
+                longo prazo.</p>
 
         </section>
-        <section id="equipe" class="cont-equip">
-            <div class="equip">
-                <h2 class="text-equi">Equipe</h2>
-                <div class="terminal">
-                    <div>
+        <!-- Equipe -->
+        <section id="equipe" class="section-equipe">
+            <div class="equipe-container">
+                <h2 class="texto-header-equipe">Equipe</h2>
+                <div class="equipe-container-section">
+                    <div class="terminal-img">
                         <img class="img-terminal" src="Img/pic_ana_vih.webp" loading="lazy" alt="Foto de Ana Vitória">
                     </div>
-                    <div>
-                        <p class="divticom">Ana Vitória</p>
+                    <div class="terminal-text">
+                        <p class="terminal-text-header">Ana Vitória</p>
+                        <p class="equipe-texto-descricao">Ama livros; estudante do Senac; Parte social e
+                            organização do projeto.</p>
                     </div>
                 </div>
-                <div class="terminal">
-                    <div>
+                <div class="equipe-container-section">
+                    <div class="terminal-img">
                         <img class="img-terminal" src="Img/pic_bea.webp" loading="lazy" alt="Foto de Beatriz Souza">
                     </div>
-                    <div>
-                        <p class="divticom">Beatriz Souza</p>
+                    <div class="terminal-text">
+                        <p class="terminal-text-header">Beatriz Souza</p>
+                        <p class="equipe-texto-descricao">Ama a série do flash; estudante do Senac; Parte
+                            social e prática do projeto.</p>
                     </div>
                 </div>
-                <div class="terminal">
-                    <div>
+                <div class="equipe-container-section">
+                    <div class="terminal-img">
                         <img class="img-terminal" src="Img/pic_felipe.webp" loading="lazy" alt="Foto de Felipe Koji">
                     </div>
-                    <div>
-                        <p class="divticom">Felipe Koji</p>
+                    <div class="terminal-text">
+                        <p class="terminal-text-header">Felipe Koji</p>
+                        <p class="equipe-texto-descricao">Ama café; estudante do Senac; Parte de idealização e
+                            programação do site.</p>
                     </div>
                 </div>
-                <div class="terminal">
-                    <div>
-                        <img class="img-terminal" src="Img/pic_sophia.webp" loading="lazy" alt="Foto de Sophia">
+                <div class="equipe-container-section">
+                    <div class="terminal-img">
+                        <img class="img-terminal" src="Img/pic_sophia.webp" loading="lazy" alt="Foto de Sophia Moreira">
                     </div>
-                    <div>
-                        <p class="divticom">Sophia Moreira</p>
+                    <div class="terminal-text">
+                        <p class="terminal-text-header">Sophia Moreira</p>
+                        <p class="equipe-texto-descricao">Ama pets; estudante do Senac; Parte social e
+                            programação do projeto.</p>
+
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- Galeria de Imagens -->
         <section id="galeria" class="cont-gale">
             <div class="gale">
                 <h2 class="text-gale">galeria</h2>
                 <div class="img-gale-item">
                     <div class="img-gale">
-                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" alt="" width="600px" height="400px">
+                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" loading="lazy" alt="" width="600px"
+                            height="400px">
                     </div>
                 </div>
                 <div class="img-gale-item">
                     <div class="img-gale">
-                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" alt="" width="600px" height="400px">
+                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" loading="lazy" alt="" width="600px"
+                            height="400px">
                     </div>
                 </div>
                 <div class="img-gale-item">
                     <div class="img-gale">
-                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" alt="" width="600px" height="400px">
+                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" loading="lazy" alt="" width="600px"
+                            height="400px">
                     </div>
                 </div>
                 <div class="img-gale-item">
                     <div class="img-gale">
-                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" alt="" width="600px" height="400px">
+                        <img src="Img/pexels-momoka-shinriki-12242157-comp.webp" loading="lazy" alt="" width="600px"
+                            height="400px">
                     </div>
                 </div>
             </div>
-        </section>
+
+            <section id="instagram">
+                <h2>Siga-nos no Instagram</h2>
+                <div class="instagram-feed">
+                    <iframe src="https://www.instagram.com/p/CnkZqVOPxe9/embed" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </section>
     </main>
 
     <!-- Rodapé -->
@@ -158,15 +183,14 @@
         <p class="footer-copyright">
             <b>WaveRiders</b>
         </p>
-        <a href="https://www.instagram.com/waveriders_obsat/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="footer-instagram-link" href="https://www.instagram.com/waveriders_obsat/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
     </footer>
-    <!-- Adicionando jQuery via CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/scroll.js"></script>
 
+    <!-- Biblioteca GSAP para animação de scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>    
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
