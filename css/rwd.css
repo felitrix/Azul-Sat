@@ -1,16 +1,11 @@
 /* Media query para celulares */
-@media screen and (max-width: 30rem) and (min-width: 22.5rem) {
+@media screen and (max-width: 480px) and (min-width: 360px) {
   /*nav*/
   .header {
     padding: 0 5%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../Img/pexels-momoka-shinriki-12242157_large_comp.webp") no-repeat
         center fixed;
-  }
-
-  [data-aos] {
-    opacity: 1 !important;
-    transform: none !important;
   }
 
   .cabecalho {
@@ -23,7 +18,7 @@
   }
 
   nav ul li {
-    margin: 0.3125rem;
+    margin: .3125rem;
   }
   .nav-menu-link {
     visibility: hidden;
@@ -60,6 +55,7 @@
   .separador-texto-header-objetivo {
     font-size: 1.125rem;
     padding-top: 2%;
+    width: 90%;
   }
 
   .objetivo-texto-descricao {
@@ -73,7 +69,7 @@
   /*Seção da equipe*/
   .section-equipe {
     max-height: 50%;
-    padding: 2%;
+    padding: 8% 2%;
   }
 
   .equipe-container {
@@ -86,40 +82,48 @@
     font-size: 2rem;
   }
 
+  .texto-descritivo-equipe {
+    display: none;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: center;
+    margin: 1%;
+  }
+
   .equipe-container-section {
     flex-basis: 100%;
   }
 
   .terminal-img {
-    width: 40%;
+    width: 43%;
   }
 
   .terminal-text {
-    width: 60%;
+    width: 57%;
   }
 
   .terminal-text-header {
-    font-size: 1.3rem;
-    padding-bottom: 0.1875rem;
+    font-size: 20.8px;
+    padding-bottom: 3px;
   }
 
   .equipe-texto-descricao {
-    font-size: 1rem;
+    font-size: 16px;
     text-align: left;
   }
 
+  .equipe-icon {
+    display: none;
+    }
+
   .img-terminal {
-    height: 7.75rem;
-    width: 7.75rem;
+    height: 124px;
+    width: 124px;
   }
 }
 
 /* Media query para tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  [data-aos] {
-    opacity: 1 !important;
-    transform: none !important;
-  }
+@media only screen and (min-width: 48rem) and (max-width: 64rem) {
 
   /*nav*/
   .header {
@@ -135,7 +139,7 @@
   }
 
   .cabecalho ul li {
-    margin: 0.625rem;
+    margin: .625rem;
   }
   .nav-menu-link {
     font-size: 1.4rem;
@@ -194,6 +198,12 @@
     font-size: 2rem;
   }
 
+  .texto-descritivo-equipe {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    margin: 2%;
+  }
+
   .equipe-container-section {
     flex-basis: 100%;
   }
@@ -208,6 +218,7 @@
 
   .terminal-text-header {
     font-size: 1.7rem;
+    padding-bottom: 1.875rem;
   }
 
   .equipe-texto-descricao {
@@ -220,6 +231,6 @@
   }
 
   .footer-copyright {
-    margin-top: 0.1875rem;
+    margin-top: .1875rem;
   }
 }

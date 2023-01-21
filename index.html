@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
 
 <head>
     <!-- Meta -->
@@ -8,19 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat</title>
+    <title itemprop="name">WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat</title>
 
     <!-- SEO -->
-    <meta name="description"
+    <meta itemprop="description"
         content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos.">
     <meta name="keywords"
-        content="CubeSat, observação marítima, oceanos, monitoramento, pesca ilegal, proteção, preservação, gestão costeira e marítima">
+        content="CubeSat, WaveRiders, OBSAT, Ubatuba, Cosata de Ubatuba, observação marítima, oceanos, monitoramento, pesca ilegal, proteção, preservação, gestão costeira e marítima">
     <meta name="author" content="Felipe Koji">
 
     <meta property="og:title" content="WaveRiders - Explorando os Oceanos com Tecnologia de CubeSat" />
     <meta property="og:description"
         content="A equipe WaveRiders está desenvolvendo um CubeSat para monitorar e estudar as condições dos oceanos, incluindo o monitoramento de pesca ilegal, com o objetivo de contribuir para a proteção e preservação dos nossos oceanos." />
-    <meta property="og:image" content="https://felitrix.github.io/WaveRiders/img/wave-riders-logo.png" />
+    <meta property="og:image" content="https://felitrix.github.io/WaveRiders/Img/waveriders_favicon.webp" />
     <meta property="og:url" content="https://felitrix.github.io/WaveRiders/" />
     <meta property="og:site_name" content="WaveRiders" />
     <meta name="robots" content="index, follow">
@@ -50,7 +50,6 @@
     <!-- Adicionando jQuery via CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/scroll_link.js"></script>
-
 </head>
 
 <body>
@@ -95,15 +94,25 @@
         <!-- Equipe -->
         <section id="equipe" class="section-equipe">
             <div class="equipe-container">
-                <h2 class="texto-header-equipe">Equipe</h2>
+                <h2 class="texto-header-equipe">Conheça nossa Equipe</h2>
+                <p class="texto-descritivo-equipe">Juntos, somos a equipe WaveRiders: uma equipe de estudantes e
+                    aventureiros determinados a desbravar as ondas do mar e do espaço com energia e paixão!</p>
                 <div class="equipe-container-section">
                     <div class="terminal-img">
                         <img class="img-terminal" src="Img/pic_ana_vih.webp" loading="lazy" alt="Foto de Ana Vitória">
                     </div>
                     <div class="terminal-text">
                         <p class="terminal-text-header">Ana Vitória</p>
-                        <p class="equipe-texto-descricao">Ama livros; estudante do Senac; Parte social e
+                        <p class="equipe-texto-descricao">Ama livros; Parte social e
                             organização do projeto.</p>
+                        <div class="equipe-icon">
+                            <a class="equipe-instagram-link" href="https://www.instagram.com/ana.viih.28/"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a style="display: none;" class="equipe-linkedin-link" href="#" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a style="display: none;" class="equipe-github-link" href="#" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="equipe-container-section">
@@ -112,8 +121,17 @@
                     </div>
                     <div class="terminal-text">
                         <p class="terminal-text-header">Beatriz Souza</p>
-                        <p class="equipe-texto-descricao">Ama a série do flash; estudante do Senac; Parte
+                        <p class="equipe-texto-descricao">Ama a série do Flash; Parte
                             social e prática do projeto.</p>
+                        <div class="equipe-icon">
+                            <a class="equipe-instagram-link" href="https://www.instagram.com/beatrizribeiiro_/"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="equipe-linkedin-link"
+                                href="https://www.linkedin.com/in/beatriz-souza-ribeiro-7b260823b/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a style="display: none;" class="equipe-github-link" href="#" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="equipe-container-section">
@@ -122,8 +140,16 @@
                     </div>
                     <div class="terminal-text">
                         <p class="terminal-text-header">Felipe Koji</p>
-                        <p class="equipe-texto-descricao">Ama café; estudante do Senac; Parte de idealização e
+                        <p class="equipe-texto-descricao">Ama café; Parte de idealização e
                             programação do site.</p>
+                        <div class="equipe-icon">
+                            <a class="equipe-instagram-link" href="https://www.instagram.com/fipenaka/"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="equipe-linkedin-link" href="https://www.linkedin.com/in/fipe/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a class="equipe-github-link" href="https://github.com/felitrix" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="equipe-container-section">
@@ -132,9 +158,15 @@
                     </div>
                     <div class="terminal-text">
                         <p class="terminal-text-header">Sophia Moreira</p>
-                        <p class="equipe-texto-descricao">Ama pets; estudante do Senac; Parte social e
+                        <p class="equipe-texto-descricao">Ama pets; Parte social e
                             programação do projeto.</p>
-
+                        <div class="equipe-icon">
+                            <a class="equipe-instagram-link" href="https://www.instagram.com/sophi.moreira/"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a style="display: none;" class="equipe-linkedin-link"
+                                href="https://www.instagram.com/waveriders_obsat/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,13 +200,6 @@
                     </div>
                 </div>
             </div>
-
-            <section id="instagram">
-                <h2>Siga-nos no Instagram</h2>
-                <div class="instagram-feed">
-                    <iframe src="https://www.instagram.com/p/CnkZqVOPxe9/embed" frameborder="0" scrolling="no"></iframe>
-                </div>
-            </section>
     </main>
 
     <!-- Rodapé -->

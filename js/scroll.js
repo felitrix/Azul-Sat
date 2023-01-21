@@ -14,6 +14,7 @@ if (screenWidth < 1024) {
   gsap.registerPlugin(ScrollTrigger);
 
   //Criando as animações com ScrollTrigger
+
   gsap.from(".section-objetivo h2", {
     duration: 1,
     x: 100,
@@ -50,3 +51,10 @@ if (screenWidth < 1024) {
     },
   });
 }
+
+
+const nav = document.querySelector('nav');
+TweenMax.to(nav, 0.3, {x: -100});
+menuButton.addEventListener('click', function() {
+  TweenMax.to(nav, 0.3, {x: 0});
+});
