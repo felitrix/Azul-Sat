@@ -18,7 +18,7 @@
   }
 
   nav ul li {
-    margin: .3125rem;
+    margin: 0.3125rem;
   }
   .nav-menu-link {
     visibility: hidden;
@@ -114,17 +114,60 @@
 
   .equipe-icon {
     display: none;
-    }
+  }
 
   .img-terminal {
     height: 124px;
     width: 124px;
   }
+
+  .section-instagram-feed {
+    max-height: 50%;
+    padding: 8% 2%;
+  }
+
+  .instafeed-container {
+    padding: 1%;
+  }
+
+  .texto-header-instagram-feed {
+    padding: 1%;
+    font-size: 2rem;
+  }
+
+  .texto-descritivo-instagram-feed {
+    display: none;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2%;
+  }
+
+  #instafeed {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .instafeed-contaner-section {
+    background-color: var(--cor-adicional);
+    padding: 1.2%;
+    margin: 2%;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
 }
 
 /* Media query para tablets */
 @media only screen and (min-width: 48rem) and (max-width: 64rem) {
-
   /*nav*/
   .header {
     padding: 0 6%;
@@ -139,7 +182,7 @@
   }
 
   .cabecalho ul li {
-    margin: .625rem;
+    margin: 0.625rem;
   }
   .nav-menu-link {
     font-size: 1.4rem;
@@ -230,7 +273,43 @@
     width: 11.5rem;
   }
 
+  .section-instagram-feed {
+    max-height: 50%;
+    padding: 3%;
+  }
+
+  .instafeed-container {
+    padding: 1%;
+    margin: 1%;
+  }
+
+  .texto-header-instagram-feed {
+    padding: 1%;
+    font-size: 2rem;
+  }
+
+  .texto-descritivo-instagram-feed {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    margin: 2%;
+  }
+
+  .center {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .instafeed-contaner-section {
+    background-color: var(--cor-adicional);
+    padding: 1.2%;
+    margin: 2%;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+
   .footer-copyright {
-    margin-top: .1875rem;
+    margin-top: 0.1875rem;
   }
 }
