@@ -192,11 +192,11 @@ nav ul li a:hover {
 }
 
 .terminal-img {
-  width: 46%;
+  width: 49%;
 }
 
 .terminal-text {
-  width: 52%;
+  width: 51%;
   display: flex;
   flex-direction: column;
   align-items: center;
