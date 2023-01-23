@@ -1,22 +1,17 @@
-/* Media query para celulares */
 @media screen and (max-width: 480px) and (min-width: 360px) {
-  /*nav*/
   .header {
     padding: 0 5%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../Img/pexels-momoka-shinriki-12242157_large_comp.webp") no-repeat
         center fixed;
   }
-
   .cabecalho {
     width: 100%;
     padding: 1%;
   }
-
   .logo {
     font-size: 1.125rem;
   }
-
   nav ul li {
     margin: 0.3125rem;
   }
@@ -24,40 +19,31 @@
     visibility: hidden;
     font-size: 1rem;
   }
-
-  /*Texto do header*/
   .texto-header {
     padding-top: 22rem;
     max-width: 28.25rem;
   }
-
   .texto-header h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
-
   .texto-header p {
     font-size: 1.125rem;
   }
-
-  /*Seção do objetivo*/
   .section-objetivo {
     padding: 2%;
     min-height: 3.625rem;
     max-height: 47%;
   }
-
   .texto-header-objetivo {
     padding: 4%;
     font-size: 2rem;
   }
-
   .separador-texto-header-objetivo {
     font-size: 1.125rem;
     padding-top: 2%;
     width: 90%;
   }
-
   .objetivo-texto-descricao {
     text-align: left;
     font-size: 1.125rem;
@@ -65,23 +51,18 @@
     padding-top: 1.25rem;
     margin: 3%;
   }
-
-  /*Seção da equipe*/
   .section-equipe {
     max-height: 50%;
     padding: 8% 2%;
   }
-
   .equipe-container {
     padding: 1%;
     flex-basis: 100%;
   }
-
   .texto-header-equipe {
     padding: 1%;
     font-size: 2rem;
   }
-
   .texto-descritivo-equipe {
     display: none;
     font-size: 1.125rem;
@@ -89,52 +70,41 @@
     text-align: center;
     margin: 1%;
   }
-
   .equipe-container-section {
     flex-basis: 100%;
   }
-
   .terminal-img {
     width: 43%;
   }
-
   .terminal-text {
     width: 57%;
   }
-
   .terminal-text-header {
     font-size: 20.8px;
     padding-bottom: 3px;
   }
-
   .equipe-texto-descricao {
     font-size: 16px;
     text-align: left;
   }
-
   .equipe-icon {
     display: none;
   }
-
   .img-terminal {
     height: 124px;
     width: 124px;
   }
-
   .section-instagram-feed {
     max-height: 50%;
     padding: 8% 2%;
   }
-
   .instafeed-container {
     padding: 1%;
   }
-
   .texto-header-instagram-feed {
     padding: 1%;
     font-size: 2rem;
   }
-
   .texto-descritivo-instagram-feed {
     display: none;
     font-size: 1.125rem;
@@ -142,21 +112,17 @@
     text-align: center;
     margin: 1%;
   }
-
   .center {
     text-align: center;
     margin: 0 auto;
     padding: 2%;
   }
-
   #instafeed {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
   }
-
   .instafeed-contaner-section {
-    background-color: var(--cor-adicional);
     padding: 1.2%;
     margin: 2%;
     border-radius: 0.625rem;
@@ -165,22 +131,16 @@
     flex-basis: 100%;
   }
 }
-
-/* Media query para tablets */
 @media only screen and (min-width: 48rem) and (max-width: 64rem) {
-  /*nav*/
   .header {
     padding: 0 6%;
   }
-
   .cabecalho {
     width: 100%;
   }
-
   .logo {
     font-size: 1.4rem;
   }
-
   .cabecalho ul li {
     margin: 0.625rem;
   }
@@ -191,116 +151,91 @@
     padding-top: 30rem;
     max-width: 28.25rem;
   }
-
   .texto-header h1 {
     font-size: 2.2rem;
   }
-
   .texto-header p {
     font-size: 1.4rem;
   }
-
-  /*Seção do objetivo*/
   .section-objetivo {
     padding: 1%;
     min-height: 3.625rem;
     max-height: 47%;
   }
-
   .texto-header-objetivo {
     padding: 2%;
     font-size: 2rem;
   }
-
   .separador-texto-header-objetivo {
     font-size: 1.125rem;
     padding-top: 1%;
   }
-
   .objetivo-texto-descricao {
     font-size: 1.125rem;
     line-height: 1.875rem;
     padding-top: 1.25rem;
     margin: 2%;
   }
-
-  /*Seção da equipe*/
   .section-equipe {
     max-height: 50%;
     padding: 3%;
   }
-  /*Container*/
   .equipe-container {
     padding: 1%;
     margin: 1%;
     flex-basis: 100%;
   }
-
   .texto-header-equipe {
     padding: 1%;
     font-size: 2rem;
   }
-
   .texto-descritivo-equipe {
     font-size: 1.125rem;
     line-height: 1.875rem;
     margin: 2%;
   }
-
   .equipe-container-section {
     flex-basis: 100%;
   }
-
   .terminal-img {
     width: 30%;
   }
-
   .terminal-text {
     width: 70%;
   }
-
   .terminal-text-header {
     font-size: 1.7rem;
     padding-bottom: 1.875rem;
   }
-
   .equipe-texto-descricao {
     font-size: 1.125rem;
   }
-
   .img-terminal {
     height: 11.5rem;
     width: 11.5rem;
   }
-
   .section-instagram-feed {
     max-height: 50%;
     padding: 3%;
   }
-
   .instafeed-container {
     padding: 1%;
     margin: 1%;
   }
-
   .texto-header-instagram-feed {
     padding: 1%;
     font-size: 2rem;
   }
-
   .texto-descritivo-instagram-feed {
     font-size: 1.125rem;
     line-height: 1.875rem;
     margin: 2%;
   }
-
   .center {
     text-align: center;
     margin: 0 auto;
   }
-
   .instafeed-contaner-section {
-    background-color: var(--cor-adicional);
     padding: 1.2%;
     margin: 2%;
     border-radius: 0.625rem;
@@ -308,7 +243,6 @@
     flex-wrap: wrap;
     flex-basis: 100%;
   }
-
   .footer-copyright {
     margin-top: 0.1875rem;
   }
