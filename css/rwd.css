@@ -10,44 +10,47 @@
     padding: 1%;
   }
   .logo {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
   nav ul li {
     margin: 0.3125rem;
   }
   .nav-menu-link {
     visibility: hidden;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
   .texto-header {
-    padding-top: 22rem;
-    max-width: 28.25rem;
+    padding-top: 26rem;
+    max-width: 28rem;
   }
   .texto-header h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 1.875rem;
+    margin-bottom: .875rem;
   }
   .texto-header p {
     font-size: 1.125rem;
+    line-height: 1.5rem;
   }
   .section-objetivo {
     padding: 2%;
-    min-height: 3.625rem;
-    max-height: 47%;
   }
   .texto-header-objetivo {
     padding: 4%;
     font-size: 2rem;
+    line-height: 2.25rem;
   }
   .separador-texto-header-objetivo {
     font-size: 1.125rem;
-    padding-top: 2%;
+    line-height: 2.25rem;
     width: 90%;
   }
   .objetivo-texto-descricao {
     text-align: left;
     font-size: 1.125rem;
-    line-height: 1.875rem;
+    line-height: 2.25rem;
     padding-top: 1.25rem;
     margin: 3%;
   }
@@ -62,11 +65,12 @@
   .texto-header-equipe {
     padding: 1%;
     font-size: 2rem;
+    line-height: 2.25rem;
   }
   .texto-descritivo-equipe {
     display: none;
     font-size: 1.125rem;
-    line-height: 1.875rem;
+    line-height: 2.25rem;
     text-align: center;
     margin: 1%;
   }
@@ -80,11 +84,13 @@
     width: 57%;
   }
   .terminal-text-header {
-    font-size: 20.8px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     padding-bottom: 3px;
   }
   .equipe-texto-descricao {
-    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     text-align: left;
   }
   .equipe-icon {
@@ -104,6 +110,7 @@
   .texto-header-instagram-feed {
     padding: 1%;
     font-size: 2rem;
+    line-height: 2.25rem;
   }
   .texto-descritivo-instagram-feed {
     display: none;
@@ -116,6 +123,12 @@
     text-align: center;
     margin: 0 auto;
     padding: 2%;
+  }
+
+  .btn-seguir {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
   #instafeed {
     display: grid;
@@ -131,6 +144,14 @@
     flex-basis: 100%;
   }
 }
+
+.footer-copyright {
+  margin-top: 0.1875rem;
+  color: var(--cor-texto);
+  font-size: .875rem;
+  line-height: 1.375rem;
+}
+
 @media only screen and (min-width: 48rem) and (max-width: 64rem) {
   .header {
     padding: 0 6%;
@@ -139,42 +160,47 @@
     width: 100%;
   }
   .logo {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
   }
   .cabecalho ul li {
     margin: 0.625rem;
   }
   .nav-menu-link {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
   }
   .texto-header {
-    padding-top: 30rem;
-    max-width: 28.25rem;
+    padding-top: 33rem;
+    max-width: 35rem;
   }
   .texto-header h1 {
-    font-size: 2.2rem;
+  font-size: 2.375rem;
+  line-height: 2.5rem;
   }
   .texto-header p {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
   .section-objetivo {
-    padding: 1%;
-    min-height: 3.625rem;
-    max-height: 47%;
+    padding: 3%;
   }
   .texto-header-objetivo {
-    padding: 2%;
     font-size: 2rem;
+    text-align: left;
   }
   .separador-texto-header-objetivo {
     font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: left;
     padding-top: 1%;
   }
   .objetivo-texto-descricao {
     font-size: 1.125rem;
-    line-height: 1.875rem;
-    padding-top: 1.25rem;
-    margin: 2%;
+    line-height: 2.25rem;
+    text-align: left;
+    padding-top: 1.125rem;
+    padding-bottom: 2%;
   }
   .section-equipe {
     max-height: 50%;
@@ -192,6 +218,7 @@
   .texto-descritivo-equipe {
     font-size: 1.125rem;
     line-height: 1.875rem;
+    text-align: left;
     margin: 2%;
   }
   .equipe-container-section {
@@ -204,11 +231,7 @@
     width: 70%;
   }
   .terminal-text-header {
-    font-size: 1.7rem;
     padding-bottom: 1.875rem;
-  }
-  .equipe-texto-descricao {
-    font-size: 1.125rem;
   }
   .img-terminal {
     height: 11.5rem;
@@ -234,6 +257,12 @@
   .center {
     text-align: center;
     margin: 0 auto;
+  }
+
+  .btn-seguir {
+    padding: .75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
   }
   .instafeed-contaner-section {
     padding: 1.2%;

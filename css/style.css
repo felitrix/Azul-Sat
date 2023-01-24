@@ -43,7 +43,8 @@ body {
   font-style: normal;
   text-decoration: none;
   color: #b2b2b2;
-  font-size: 1.625rem;
+  font-size: 1.75rem;
+  line-height: 1.875rem;
 }
 
 .cabecalho ul li {
@@ -53,7 +54,8 @@ body {
 }
 
 .nav-menu-link {
-  font-size: 1.625rem;
+  font-size: 1.75rem;
+  line-height: 1.875rem;
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
@@ -67,11 +69,12 @@ nav ul li a:hover {
 /*Texto do header*/
 .texto-header {
   padding-top: 23rem;
-  max-width: 43.75rem;
+  max-width: 45rem;
 }
 
 .texto-header h1 {
-  font-size: 2.875rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
   font-family: courier-std, monospace;
   font-weight: 700;
   color: var(--cor-texto);
@@ -80,6 +83,7 @@ nav ul li a:hover {
 
 .texto-header p {
   font-size: 1.5rem;
+  line-height: 1.625rem;
   display: inline-block;
   color: var(--cor-texto);
   font-family: courier-std, monospace;
@@ -103,8 +107,8 @@ nav ul li a:hover {
   font-weight: 700;
   font-style: normal;
   color: var(--cor-texto);
-  font-size: 2.625rem;
-  background: var(--cor-secundaria);
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 .separador-texto-header-objetivo {
@@ -116,7 +120,7 @@ nav ul li a:hover {
   font-weight: 700;
   font-style: normal;
   color: var(--cor-texto);
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   padding-top: 1%;
 }
 
@@ -127,7 +131,7 @@ nav ul li a:hover {
   font-weight: 400;
   font-style: normal;
   color: var(--cor-texto);
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   padding-top: 1.25rem;
   max-width: 60rem;
@@ -162,9 +166,8 @@ nav ul li a:hover {
   padding: 2%;
   font-style: normal;
   color: var(--cor-texto);
-  background: var(--cor-secundaria);
-  font-size: 2.625rem;
-  border-radius: 0.625rem;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .texto-descritivo-equipe {
@@ -176,8 +179,7 @@ nav ul li a:hover {
   font-weight: 400;
   font-style: normal;
   color: var(--cor-texto);
-  background: var(--cor-secundaria);
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
 }
 
@@ -206,7 +208,8 @@ nav ul li a:hover {
 .terminal-text-header {
   color: var(--cor-texto);
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.75rem;
+  line-height: 1.875rem;
   font-family: courier-std, monospace;
   font-weight: 700;
   font-style: normal;
@@ -216,7 +219,8 @@ nav ul li a:hover {
 .equipe-texto-descricao {
   color: var(--cor-texto);
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
   font-family: courier-std, monospace;
   font-weight: 400;
   font-style: normal;
@@ -270,9 +274,8 @@ nav ul li a:hover {
   padding: 2%;
   font-style: normal;
   color: var(--cor-texto);
-  background: var(--cor-secundaria);
-  font-size: 2.625rem;
-  border-radius: 0.625rem;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .texto-descritivo-instagram-feed {
@@ -285,8 +288,7 @@ nav ul li a:hover {
   font-weight: 400;
   font-style: normal;
   color: var(--cor-texto);
-  background: var(--cor-secundaria);
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
 }
 
@@ -297,17 +299,19 @@ nav ul li a:hover {
 
 .btn-seguir {
   display: inline-block;
-  padding: 0.5rem 1rem;
   background-color: var(--cor-adicional);
   color: var(--cor-texto);
   text-decoration: none;
-  border-radius: 0.5rem;
-  font-size: 1.2rem;
-  transition: background-color 0.3s ease;
+  border-radius: 0.625rem;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  filter: brightness(100%);
+  transition: filter 0.4s;
 }
 
 .btn-seguir:hover {
-  background-color: var(--cor-secundaria);
+  filter: brightness(120%);
 }
 
 .instafeed-contaner-section {
@@ -385,7 +389,9 @@ nav ul li a:hover {
 
 /* show only 4 images on mobile */
 @media only screen and (max-width: 600px) {
-  #instafeed li:nth-child(n+5) {display: none;}
+  #instafeed li:nth-child(n + 5) {
+    display: none;
+  }
 }
 
 /* cursor terminal*/
@@ -420,10 +426,10 @@ footer {
 }
 
 .footer-copyright {
-  line-height: 1.375rem;
   margin-top: 0.1875rem;
   color: var(--cor-texto);
-  font-size: 0.875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 footer img {
