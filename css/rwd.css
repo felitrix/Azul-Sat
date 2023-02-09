@@ -133,16 +133,20 @@
   #instafeed {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 0.875rem;
   }
   .instafeed-contaner-section {
-    padding: 1.2%;
+    padding: 2%;
     margin: 2%;
     border-radius: 0.625rem;
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
   }
+}
+
+footer {
+  padding: 1rem 5%;
 }
 
 .footer-copyright {
