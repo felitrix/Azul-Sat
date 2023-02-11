@@ -14,7 +14,7 @@ There is another branch called “minifying”, that's the same code as Main, bu
 [The MIT License](https://en.wikipedia.org/wiki/MIT_License)
 
 
-## Instalação
+## Installation
 ```bash
 apt-get update
 apt-get install git
