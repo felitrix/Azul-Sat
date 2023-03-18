@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fipe.tech/WaveRiders/sitemap.xml
+Sitemap: https://felitrix.github.io/WaveRiders/sitemap.xml
